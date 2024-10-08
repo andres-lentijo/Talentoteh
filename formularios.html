@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+
+<link href="fonts/CairoPlay-Black.ttf">
+<link href="fonts/CairoPlay-Bold.ttf">
+<link href="fonts/CairoPlay-ExtraBold.ttf">
+<link href="fonts/CairoPlay-ExtraLight.ttf">
+<link href="fonts/CairoPlay-Light.ttf">
+<link href="fonts/CairoPlay-Medium.ttf">
+<link href="fonts/CairoPlay-Regular.ttf">
+<link href="fonts/CairoPlay-SemiBold.ttf">
+<style>
+
+  
+  .cairo-play, .fontUI {
+    font-family: "Cairo Play", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:200;
+    font-style:normal;
+    font-variation-settings:"slnt" 0;
+  }
+</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicion 1 HTML y Git</title>
+  </head>
+  <body>
+    <!--Creacion de Tablas-->
+    <h1>Tabla de Ejemplo</h1>
+    <hr>
+    <table border="1">
+      <caption>
+    <h3>    Titulo de tabla</h3>
+      </caption>
+      <thead>
+        <th>Animala</th>
+        <th>Foto</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gato</td>
+          <td>
+            <img
+              width="150"
+              src="https://breed-assets.wisdompanel.com/cat/domestic-cat-finland/European_Domestic.png"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Perro</td>
+          <td>
+            <img
+              width="150"
+              src="https://static.fundacion-affinity.org/cdn/farfuture/PVbbIC-0M9y4fPbbCsdvAD8bcjjtbFc0NSP3lRwlWcE/mtime:1643275542/sites/default/files/los-10-sonidos-principales-del-perro.jpg"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Mico</td>
+          <td>
+            <img
+              width="150"
+              src="https://inaturalist-open-data.s3.amazonaws.com/photos/60804996/large.jpg"
+            />
+          </td>
+        </tr>
+      </tbody>
+
+      <tfoot></tfoot>
+    </table>
+<br><br>
+
+
+
+    <h1>Formulario HTML (metodo get)</h1>
+<!--GET Envio de datos no sensibles -->
+<!--POST Envio de datos sensibles -->
+<form action="/datos" method="post">
+    <label for="name">Nombre Completo</label>
+    <input type="text" id="name" name="nombre" placeholder="Cual es tu nombre?">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" id="name" name="password" placeholder="Elige un password">
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Cual es tu correo?">
+    <br><br>
+    <label for="telefono">Telefono</label>
+    <input type="tel" id="telefono" name="tel" placeholder="Cual es tu telefono? pattern">
+    <br><br>
+    <label for="url">URL</label>
+    <input type="url" id="url" name="url" placeholder="Escribe la URL">
+    <br><br>
+    <label for="numero">Numero</label>
+    <input type="number" id="number" name="number" placeholder="Escribe un numero">
+    <br><br>
+    <label for="numero">Rango</label>
+    <input type="range" id="range" name="range" placeholder="Escribe un Rango " min="1" max="100">
+    <br><br>
+    <label for="fecha">Fecha</label>
+    <input type="date" id="fecha" name="fecha" placeholder="Selecciona Fecha ">
+    <br><br>
+    <label for="time">Hora</label>
+    <input type="time" id="time" name="time" placeholder="Selecciona Hora ">
+    <br><br>
+    <label for="fechayhora">Hora</label>
+    <input type="datetime-local" id="fechayhora" name="datetime" placeholder="Selecciona Fecha y Hora ">
+    <br><br>
+    <label for="month">Mes</label>
+    <input type="month" id="month" name="mes" placeholder="Selecciona un mes ">
+    <br><br>
+    <label for="week">Semana</label>
+    <input type="week" id="week" name="week" placeholder="Selecciona semana">
+    <br><br>
+    <label for="color">Color</label>
+    <input type="color" id="color" name="color" placeholder="Selecciona Color">
+    <br><br>
+    <label for="option">Opcion (Seleccion)</label>
+    <input type="checkbox" id="option" name="option" placeholder="Selecciona Color">
+    <br><br>
+    <label for="archivo">Cargar archivo</label>
+    <input type="file" id="file" name="file" placeholder="Cargar archivo">
+    <br><br>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+
+<br><br>
+
+<!-- Boton con imagen -->
+<input type="image" alt="enviar" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="60" height="60">
+
+
+<!-- Solo imagen -->
+<img type="image" alt="enviar" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="60" height="60">
+<br><br>
+<button>
+   <img type="image" alt="enviar" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="60" height="60">
+<br>
+<small>Boton</small> <small>HTML</small>
+  </button>
+  <button>
+    <img type="image" alt="enviar" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="60" height="60">
+ <br>
+ <small>Boton</small> <small>CSS</small>
+   </button>
+
+</form>
+
+
+
+<hr>
+    <a href="index.html">Ir a Home</a>
+  </body>
+</html>

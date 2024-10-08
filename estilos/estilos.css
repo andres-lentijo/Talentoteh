@@ -1,0 +1,40 @@
+body{
+    font-family:Tahoma;
+}
+
+
+p{
+    color:#888888;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color:rgb(0, 204, 255) ;
+}
+
+/*--  Uso de ID --*/
+#intro{
+    font-size: 24px;
+    color: rgb(255, 0, 128);
+}
+
+img{
+    border-radius: 8px;
+    border: solid 2px blue;
+}
+
+.enfasis{
+    background-color: green;
+    color: white;
+}
+
+a{
+    color: blueviolet;
+}
+
+a:hover{
+    color: darkorange;
+    font-weight: bold;
+    font-size: x-large;
+}
+

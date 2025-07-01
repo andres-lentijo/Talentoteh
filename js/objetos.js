@@ -2,16 +2,12 @@
 // OBJETOS
 console.log("OBJETOS");
 
-let carro = {
-    marca : "toyota",
-    precio : 30,
-    color : "rojo",
-    acelera(){
-        console.log("Esta acelerando");
-    }, 
-     frenar(){
-        console.log("El carro esta frenando");
-     }
+let carro = { 
+    marca : "toyota", 
+    precio : 30, 
+    color : "rojo", 
+    acelera(){ console.log("Esta acelerando"); }, 
+    frenar(){ console.log("El carro esta frenando");  }
 }
 
 // SETTER
